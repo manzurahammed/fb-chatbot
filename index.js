@@ -13,7 +13,7 @@ app.get('/',function(req,res){
 	res.send('Hi I am lol')
 })
 
-let token = "EAAIFxYa0lJwBAGc2Euy6gQZBApDafKKJZAVF0Es1JBo5XqUz7e7qMSiTfmZBRcHzEZCTNFXETZCj1dO5mrtTaQr6524nCTHkXPjxQpXHkSnJ59zWJk25WbrakazNM3YMe3cGBDeQhPJZA4vcNyL6IPZCNH0Ac9zHMXSaN93x0h74AZDZD"
+let token = ""
 
 app.get('/webhook/',function(req,res){
 	if(req.query['hub.verify_token']=='mchatb'){
